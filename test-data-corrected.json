@@ -1,0 +1,452 @@
+{
+  "members": [
+    {
+      "id": "member-zhang",
+      "name": "张伟",
+      "role": "技术负责人",
+      "email": "zhang.wei@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-li",
+      "name": "李娜",
+      "role": "高级开发工程师",
+      "email": "li.na@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-wang",
+      "name": "王强",
+      "role": "开发工程师",
+      "email": "wang.qiang@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-chen",
+      "name": "陈敏",
+      "role": "开发工程师",
+      "email": "chen.min@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-zhao",
+      "name": "赵磊",
+      "role": "技术负责人",
+      "email": "zhao.lei@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-sun",
+      "name": "孙丽",
+      "role": "高级开发工程师",
+      "email": "sun.li@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-zhou",
+      "name": "周杰",
+      "role": "开发工程师",
+      "email": "zhou.jie@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-wu",
+      "name": "吴婷",
+      "role": "高级开发工程师",
+      "email": "wu.ting@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-zheng",
+      "name": "郑浩",
+      "role": "开发工程师",
+      "email": "zheng.hao@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-he",
+      "name": "何静",
+      "role": "高级开发工程师",
+      "email": "he.jing@company.com",
+      "isActive": true
+    },
+    {
+      "id": "member-lv",
+      "name": "吕明",
+      "role": "开发工程师",
+      "email": "lv.ming@company.com",
+      "isActive": true
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "需求分析和设计",
+      "description": "完成电商平台的功能需求分析和技术架构设计",
+      "memberId": "member-zhang",
+      "startDate": "2025-09-27T16:31:21.000Z",
+      "endDate": "2025-10-17T16:31:21.000Z",
+      "status": "completed",
+      "priority": "high",
+      "storyPoints": 13,
+      "estimatedPersonDays": 10
+    },
+    {
+      "id": "task-002",
+      "title": "用户界面设计",
+      "description": "设计电商平台的用户界面和交互体验",
+      "memberId": "member-li",
+      "startDate": "2025-10-02T16:31:21.000Z",
+      "endDate": "2025-10-22T16:31:21.000Z",
+      "status": "completed",
+      "priority": "high",
+      "storyPoints": 8,
+      "estimatedPersonDays": 8
+    },
+    {
+      "id": "task-003",
+      "title": "前端框架搭建",
+      "description": "搭建React前端项目框架和基础组件库",
+      "memberId": "member-wang",
+      "startDate": "2025-10-19T16:31:21.000Z",
+      "endDate": "2025-10-29T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 21,
+      "estimatedPersonDays": 15
+    },
+    {
+      "id": "task-004",
+      "title": "用户认证模块",
+      "description": "实现用户登录、注册和权限管理功能",
+      "memberId": "member-chen",
+      "startDate": "2025-10-22T16:31:21.000Z",
+      "endDate": "2025-11-01T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "medium",
+      "storyPoints": 13,
+      "estimatedPersonDays": 10
+    },
+    {
+      "id": "task-005",
+      "title": "商品管理API",
+      "description": "开发商品CRUD和库存管理API接口",
+      "memberId": "member-sun",
+      "startDate": "2025-10-24T16:31:21.000Z",
+      "endDate": "2025-11-03T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 13,
+      "estimatedPersonDays": 12
+    },
+    {
+      "id": "task-006",
+      "title": "订单处理系统",
+      "description": "实现订单创建、支付和状态管理",
+      "memberId": "member-zhou",
+      "startDate": "2025-10-30T16:31:21.000Z",
+      "endDate": "2025-11-11T16:31:21.000Z",
+      "status": "pending",
+      "priority": "medium",
+      "storyPoints": 21,
+      "estimatedPersonDays": 18
+    },
+    {
+      "id": "task-007",
+      "title": "前端集成测试",
+      "description": "对前端功能进行集成测试和性能优化",
+      "memberId": "member-li",
+      "startDate": "2025-11-04T16:31:21.000Z",
+      "endDate": "2025-11-14T16:31:21.000Z",
+      "status": "pending",
+      "priority": "medium",
+      "storyPoints": 8,
+      "estimatedPersonDays": 8
+    },
+    {
+      "id": "task-008",
+      "title": "移动端架构设计",
+      "description": "设计移动端应用的技术架构和开发规范",
+      "memberId": "member-wu",
+      "startDate": "2025-10-12T16:31:21.000Z",
+      "endDate": "2025-10-19T16:31:21.000Z",
+      "status": "completed",
+      "priority": "high",
+      "storyPoints": 8,
+      "estimatedPersonDays": 7
+    },
+    {
+      "id": "task-009",
+      "title": "iOS应用开发",
+      "description": "开发iOS原生应用的核心功能",
+      "memberId": "member-wu",
+      "startDate": "2025-10-22T16:31:21.000Z",
+      "endDate": "2025-11-06T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 34,
+      "estimatedPersonDays": 25
+    },
+    {
+      "id": "task-010",
+      "title": "Android应用开发",
+      "description": "开发Android原生应用的核心功能",
+      "memberId": "member-zheng",
+      "startDate": "2025-10-25T16:31:21.000Z",
+      "endDate": "2025-11-08T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 34,
+      "estimatedPersonDays": 25
+    },
+    {
+      "id": "task-011",
+      "title": "移动端测试和优化",
+      "description": "进行移动端应用的测试和性能优化",
+      "memberId": "member-wu",
+      "startDate": "2025-11-09T16:31:21.000Z",
+      "endDate": "2025-11-21T16:31:21.000Z",
+      "status": "pending",
+      "priority": "medium",
+      "storyPoints": 13,
+      "estimatedPersonDays": 12
+    },
+    {
+      "id": "task-012",
+      "title": "数据采集系统",
+      "description": "开发多源数据采集和ETL处理系统",
+      "memberId": "member-sun",
+      "startDate": "2025-10-17T16:31:21.000Z",
+      "endDate": "2025-11-01T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 21,
+      "estimatedPersonDays": 18
+    },
+    {
+      "id": "task-013",
+      "title": "数据仓库设计",
+      "description": "设计数据仓库模型和存储架构",
+      "memberId": "member-zhou",
+      "startDate": "2025-10-24T16:31:21.000Z",
+      "endDate": "2025-11-08T16:31:21.000Z",
+      "status": "pending",
+      "priority": "high",
+      "storyPoints": 13,
+      "estimatedPersonDays": 15
+    },
+    {
+      "id": "task-014",
+      "title": "可视化报表开发",
+      "description": "开发数据可视化和报表生成功能",
+      "memberId": "member-zhao",
+      "startDate": "2025-11-04T16:31:21.000Z",
+      "endDate": "2025-11-18T16:31:21.000Z",
+      "status": "pending",
+      "priority": "medium",
+      "storyPoints": 21,
+      "estimatedPersonDays": 20
+    },
+    {
+      "id": "task-015",
+      "title": "容器化改造",
+      "description": "将现有服务迁移到Kubernetes容器平台",
+      "memberId": "member-he",
+      "startDate": "2025-10-02T16:31:21.000Z",
+      "endDate": "2025-10-22T16:31:21.000Z",
+      "status": "completed",
+      "priority": "urgent",
+      "storyPoints": 34,
+      "estimatedPersonDays": 30
+    },
+    {
+      "id": "task-016",
+      "title": "CI/CD流水线",
+      "description": "建立自动化持续集成和部署流水线",
+      "memberId": "member-lv",
+      "startDate": "2025-10-19T16:31:21.000Z",
+      "endDate": "2025-11-03T16:31:21.000Z",
+      "status": "inProgress",
+      "priority": "high",
+      "storyPoints": 21,
+      "estimatedPersonDays": 18
+    },
+    {
+      "id": "task-017",
+      "title": "监控告警系统",
+      "description": "部署应用性能监控和告警系统",
+      "memberId": "member-he",
+      "startDate": "2025-11-01T16:31:21.000Z",
+      "endDate": "2025-11-16T16:31:21.000Z",
+      "status": "pending",
+      "priority": "medium",
+      "storyPoints": 13,
+      "estimatedPersonDays": 15
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-ecommerce",
+      "name": "电商平台重构",
+      "description": "基于微服务架构的电商平台重构项目",
+      "startDate": "2025-09-27T16:31:21.000Z",
+      "endDate": "2025-12-06T16:31:21.000Z",
+      "status": "active",
+      "taskIds": ["task-001", "task-002", "task-003", "task-004", "task-005", "task-006", "task-007"],
+      "teamIds": ["team-frontend", "team-backend"]
+    },
+    {
+      "id": "project-mobile-app",
+      "name": "移动端应用开发",
+      "description": "iOS和Android原生应用开发",
+      "startDate": "2025-10-02T16:31:21.000Z",
+      "endDate": "2025-12-11T16:31:21.000Z",
+      "status": "active",
+      "taskIds": ["task-008", "task-009", "task-010", "task-011"],
+      "teamIds": ["team-frontend", "team-mobile"]
+    },
+    {
+      "id": "project-analytics",
+      "name": "数据分析平台",
+      "description": "大数据分析和可视化平台",
+      "startDate": "2025-10-07T16:31:21.000Z",
+      "endDate": "2025-12-16T16:31:21.000Z",
+      "status": "active",
+      "taskIds": ["task-012", "task-013", "task-014"],
+      "teamIds": ["team-backend"]
+    },
+    {
+      "id": "project-infrastructure",
+      "name": "基础设施升级",
+      "description": "云平台和容器化基础设施升级",
+      "startDate": "2025-09-22T16:31:21.000Z",
+      "endDate": "2025-12-01T16:31:21.000Z",
+      "status": "active",
+      "taskIds": ["task-015", "task-016", "task-017"],
+      "teamIds": ["team-devops"]
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-frontend",
+      "name": "前端开发团队",
+      "description": "负责Web和移动端前端开发",
+      "memberIds": ["member-zhang", "member-li", "member-wang", "member-chen"],
+      "projectIds": ["project-ecommerce", "project-mobile-app"]
+    },
+    {
+      "id": "team-backend",
+      "name": "后端开发团队",
+      "description": "负责服务端和API开发",
+      "memberIds": ["member-zhao", "member-sun", "member-zhou"],
+      "projectIds": ["project-ecommerce", "project-analytics"]
+    },
+    {
+      "id": "team-mobile",
+      "name": "移动端团队",
+      "description": "负责移动应用开发",
+      "memberIds": ["member-wu", "member-zheng"],
+      "projectIds": ["project-mobile-app"]
+    },
+    {
+      "id": "team-devops",
+      "name": "运维团队",
+      "description": "负责基础设施和运维",
+      "memberIds": ["member-he", "member-lv"],
+      "projectIds": ["project-infrastructure"]
+    }
+  ],
+  "resources": [
+    {
+      "id": "resource-room-001",
+      "name": "大会议室A",
+      "type": "meetingRoom",
+      "description": "可容纳12人的大型会议室，配备投影仪和白板",
+      "location": "3楼东侧",
+      "capacity": 12,
+      "isAvailable": true
+    },
+    {
+      "id": "resource-room-002",
+      "name": "小会议室B",
+      "type": "meetingRoom",
+      "description": "可容纳6人的中型会议室",
+      "location": "2楼西侧",
+      "capacity": 6,
+      "isAvailable": true
+    },
+    {
+      "id": "resource-device-001",
+      "name": "iPhone测试设备",
+      "type": "testDevice",
+      "description": "iPhone 14 Pro Max测试设备",
+      "location": "测试实验室",
+      "capacity": 1,
+      "isAvailable": true
+    },
+    {
+      "id": "resource-device-002",
+      "name": "Android测试设备",
+      "type": "testDevice",
+      "description": "Samsung Galaxy S23测试设备",
+      "location": "测试实验室",
+      "capacity": 1,
+      "isAvailable": true
+    },
+    {
+      "id": "resource-server-001",
+      "name": "开发测试服务器",
+      "type": "other",
+      "description": "用于开发和测试的云服务器",
+      "location": "云端",
+      "capacity": 10,
+      "isAvailable": false
+    }
+  ],
+  "resourceBookings": [
+    {
+      "id": "booking-001",
+      "resourceId": "resource-room-001",
+      "memberId": "member-zhang",
+      "title": "电商项目周会",
+      "description": "电商平台重构项目周度进度会议",
+      "startDate": "2025-10-28T16:31:21.000Z",
+      "endDate": "2025-10-28T18:31:21.000Z",
+      "attendees": ["member-zhang", "member-li", "member-wang", "member-chen", "member-sun"],
+      "status": "confirmed"
+    },
+    {
+      "id": "booking-002",
+      "resourceId": "resource-room-002",
+      "memberId": "member-wu",
+      "title": "移动端技术评审",
+      "description": "移动端应用技术方案评审会议",
+      "startDate": "2025-10-29T16:31:21.000Z",
+      "endDate": "2025-10-29T19:31:21.000Z",
+      "attendees": ["member-wu", "member-zheng", "member-zhang"],
+      "status": "confirmed"
+    },
+    {
+      "id": "booking-003",
+      "resourceId": "resource-device-001",
+      "memberId": "member-wu",
+      "title": "iOS应用测试",
+      "description": "iOS应用功能测试和兼容性验证",
+      "startDate": "2025-10-30T16:31:21.000Z",
+      "endDate": "2025-11-04T16:31:21.000Z",
+      "attendees": ["member-wu"],
+      "status": "confirmed"
+    },
+    {
+      "id": "booking-004",
+      "resourceId": "resource-room-001",
+      "memberId": "member-zhao",
+      "title": "数据分析架构讨论",
+      "description": "数据仓库架构设计讨论",
+      "startDate": "2025-11-01T16:31:21.000Z",
+      "endDate": "2025-11-01T20:31:21.000Z",
+      "attendees": ["member-zhao", "member-sun", "member-zhou"],
+      "status": "pending"
+    }
+  ]
+}

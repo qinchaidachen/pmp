@@ -1,0 +1,292 @@
+/* 响应式设计样式 */
+
+/* 响应式侧边栏样式 */
+.responsive-sidebar {
+  transition: all 0.3s ease;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-sidebar .ant-menu {
+  font-size: 14px;
+}
+
+.responsive-sidebar .ant-menu-item {
+  height: 48px;
+  line-height: 48px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+.responsive-sidebar .ant-menu-item-selected {
+  background-color: #e6f7ff !important;
+  color: #1890ff !important;
+}
+
+.responsive-sidebar .ant-menu-item:hover {
+  background-color: #f5f5f5;
+}
+
+/* 移动端抽屉样式 */
+.responsive-sidebar-drawer .ant-drawer-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.responsive-sidebar-drawer .ant-drawer-body {
+  padding: 0;
+}
+
+/* 响应式表格样式 */
+.responsive-table .ant-table {
+  font-size: 14px;
+}
+
+.responsive-table .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+  padding: 12px 8px;
+}
+
+.responsive-table .ant-table-tbody > tr > td {
+  padding: 12px 8px;
+}
+
+.responsive-table-mobile .ant-card {
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table-mobile .ant-card-body {
+  padding: 12px;
+}
+
+.responsive-table-mobile .ant-card-actions {
+  border-top: 1px solid #f0f0f0;
+  background-color: #fafafa;
+}
+
+/* 响应式图表样式 */
+.responsive-chart .ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px 24px;
+  min-height: auto;
+}
+
+.responsive-chart .ant-card-head-title {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.responsive-chart .ant-card-body {
+  padding: 20px 24px;
+}
+
+.responsive-chart-mobile .ant-card-head {
+  padding: 12px 16px;
+  min-height: auto;
+}
+
+.responsive-chart-mobile .ant-card-head-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.responsive-chart-mobile .ant-card-body {
+  padding: 16px;
+}
+
+.responsive-chart-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 响应式布局样式 */
+.responsive-layout .ant-layout-header {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+.responsive-layout .ant-layout-content {
+  position: relative;
+}
+
+/* 媒体查询断点 */
+
+/* 超小屏幕（手机竖屏）*/
+@media (max-width: 767px) {
+  .responsive-sidebar {
+    transform: translateX(-100%);
+  }
+  
+  .responsive-table .ant-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .responsive-table .ant-table-thead > tr > th,
+  .responsive-table .ant-table-tbody > tr > td {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+  
+  .responsive-chart .ant-card-head-title {
+    font-size: 16px;
+  }
+  
+  .responsive-chart .ant-card-body {
+    padding: 16px;
+  }
+}
+
+/* 小屏幕（手机横屏）*/
+@media (min-width: 640px) and (max-width: 767px) {
+  .responsive-table .ant-table-thead > tr > th,
+  .responsive-table .ant-table-tbody > tr > td {
+    padding: 10px 6px;
+    font-size: 13px;
+  }
+}
+
+/* 中等屏幕（平板竖屏）*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  .responsive-sidebar {
+    width: 200px !important;
+  }
+  
+  .responsive-sidebar .ant-menu-item {
+    font-size: 13px;
+  }
+  
+  .responsive-table .ant-table-thead > tr > th,
+  .responsive-table .ant-table-tbody > tr > td {
+    padding: 10px 8px;
+    font-size: 13px;
+  }
+}
+
+/* 大屏幕（平板横屏/小桌面）*/
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .responsive-sidebar {
+    width: 220px !important;
+  }
+}
+
+/* 超大屏幕（桌面）*/
+@media (min-width: 1280px) {
+  .responsive-sidebar {
+    width: 240px !important;
+  }
+}
+
+/* 触摸优化 */
+@media (hover: none) and (pointer: coarse) {
+  /* 移动设备触摸优化 */
+  .responsive-sidebar .ant-menu-item {
+    height: 52px;
+    line-height: 52px;
+    margin: 6px 0;
+  }
+  
+  .responsive-table .ant-btn {
+    min-height: 36px;
+    padding: 4px 12px;
+  }
+  
+  .responsive-chart .ant-btn {
+    min-height: 36px;
+    padding: 4px 12px;
+  }
+}
+
+/* 暗色主题支持 */
+@media (prefers-color-scheme: dark) {
+  .responsive-sidebar {
+    background: #141414 !important;
+    border-right-color: #303030 !important;
+  }
+  
+  .responsive-sidebar .ant-menu {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .responsive-sidebar .ant-menu-item:hover {
+    background-color: #262626;
+  }
+  
+  .responsive-sidebar .ant-menu-item-selected {
+    background-color: #111b2b !important;
+    color: #1890ff !important;
+  }
+  
+  .responsive-layout .ant-layout-header {
+    background: #141414 !important;
+    border-bottom-color: #303030 !important;
+  }
+  
+  .responsive-table .ant-table-thead > tr > th {
+    background-color: #1f1f1f;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .responsive-chart .ant-card {
+    background: #141414;
+    border-color: #303030;
+  }
+  
+  .responsive-chart .ant-card-head {
+    background: #141414;
+    border-bottom-color: #303030;
+  }
+}
+
+/* 减少动画（用户偏好）*/
+@media (prefers-reduced-motion: reduce) {
+  .responsive-sidebar {
+    transition: none;
+  }
+  
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 高对比度模式 */
+@media (prefers-contrast: high) {
+  .responsive-sidebar {
+    border-right-width: 2px;
+  }
+  
+  .responsive-table .ant-table-thead > tr > th {
+    border-bottom-width: 2px;
+  }
+  
+  .responsive-chart .ant-card {
+    border-width: 2px;
+  }
+}
+
+/* 打印样式 */
+@media print {
+  .responsive-sidebar,
+  .responsive-layout .ant-layout-header {
+    display: none !important;
+  }
+  
+  .responsive-layout .ant-layout-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+  }
+  
+  .responsive-table .ant-table-pagination {
+    display: none;
+  }
+  
+  .responsive-chart .ant-card-actions {
+    display: none;
+  }
+}
